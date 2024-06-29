@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-creze-dev-a7f64-authRole",
+      "UnauthRoleArn": "arn:aws:iam::851725614761:role/amplify-creze-dev-a7f64-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::851725614761:role/amplify-creze-dev-a7f64-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-creze-dev-a7f64-deployment",
+      "UnauthRoleName": "amplify-creze-dev-a7f64-unauthRole",
+      "StackName": "amplify-creze-dev-a7f64",
+      "StackId": "arn:aws:cloudformation:us-east-2:851725614761:stack/amplify-creze-dev-a7f64/910848a0-361f-11ef-90ea-0a035ba6f411",
+      "AmplifyAppId": "d3372pw5jur8rh"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3372pw5jur8rh",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}

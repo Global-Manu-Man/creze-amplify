@@ -1,0 +1,46 @@
+.registration  {
+    width: 800px;
+}  
+.lebel {
+    font-size: 14px;
+}
+.control {
+    font-size: 15px;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+.btn-flex {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-flex-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-flex-child {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.error {
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+
+.btn-flex-2 button {
+    padding: 0 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    .btn-flex-2 button {
+        padding: 0 10px;
+    }
+}
+  

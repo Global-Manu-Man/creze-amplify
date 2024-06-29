@@ -1,0 +1,115 @@
+/* Estilos generales */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Contenedor principal para centrar el contenido */
+.capture-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f4ff;
+}
+
+/* Estilos del formulario de captura */
+.capture-form {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.upload-fragmentation {
+  margin-top: 20px;
+}
+
+.progress-bar {
+  position: relative;
+  height: 30px;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background-color: #4caf50;
+  transition: width 0.5s;
+}
+
+.progress-bar span {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+}
+
+/* Estilos del mensaje de éxito */
+.success-message {
+  color: green;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .capture-form {
+    padding: 10px;
+  }
+
+  .capture-form h2 {
+    font-size: 24px;
+  }
+
+  .capture-form label {
+    font-size: 14px;
+  }
+
+  .capture-form input[type="file"] {
+    font-size: 14px;
+  }
+
+  .button-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* Estilos tipo tarjeta */
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos del botón */
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  transition: background-color 0.3s ease;
+}
+
+.btn.primary {
+  background-color: #007bff;
+}
+
+.btn.primary:hover {
+  background-color: #0056b3;
+}

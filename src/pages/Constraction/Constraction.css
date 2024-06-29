@@ -1,0 +1,27 @@
+.construc-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .construction {
+      max-width: 500px;
+  }
+  
+  .title-cons {
+      font-size: 30px;
+  }
+  
+  .des-cons {
+      font-size: 15px;
+  }
+  
+  .constraction-img {
+      width: 300px;
+  }
+  
+  .locally-logo {
+      width: 170px;
+      margin-top: 30px;
+  }

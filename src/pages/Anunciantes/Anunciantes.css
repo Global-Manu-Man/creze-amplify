@@ -1,0 +1,139 @@
+.anunciantes {
+    width: 250px;
+}
+
+.search-icon-p {
+    position: relative;
+    z-index: 9;
+}
+.search-icon {
+    position: absolute;
+    top: 8px;
+    right: 7px;
+    z-index: 11;
+    cursor: pointer;
+}
+
+.anuncian-card {
+    width: 13.2rem;
+}
+
+.card-fs-1 {
+    font-size: 15px;
+}
+.card-fs-2 {
+    font-size: 14px;
+}
+
+.form-check-input:focus {
+    box-shadow: none !important;
+}
+
+.paginate {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.paginate span {
+    border: 1px solid #dee2e6;
+    padding: 13px 15px;
+    margin-left: -1px;
+    cursor: pointer;
+}
+.paginate span:first-child {
+    margin-left: 0;
+    
+}
+.paginate .active {
+    background: #49a5e4;
+    color: white;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.biMenudiv {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.card-img-top {
+  width: 100%; /* Ancho deseado del icono */
+  height: 100%; /* Alto deseado del icono */
+  object-fit: cover; /* Ajustar la imagen manteniendo la relación de aspecto */
+}
+
+.biMenu {
+    background: #f8f8f8;
+    border: 1px solid #ececec;
+    padding: 8px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: none;
+}
+
+@media only screen and (max-width: 991px) {
+    .anuncian-card {
+        width: 15rem;
+    }
+    .anunciantes {
+        width: 100%;
+        margin-top: 65px;
+    }
+    .biMenu {
+        display: block;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .anuncian-card {
+        width: 16.6rem;
+    }
+}
+@media only screen and (max-width: 532px) {
+    .anuncian-card {
+        width: 16rem;
+    }
+}
+@media only screen and (max-width: 511px) {
+    .anuncian-card {
+        width: 15rem;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .anuncian-card {
+        width: 13rem;
+    }
+}
+@media only screen and (max-width: 416px) {
+    .anuncian-card {
+        width: 12rem;
+    }
+}
+@media only screen and (max-width: 384px) {
+    .anuncian-card {
+        width: 11rem;
+    }
+}
+@media only screen and (max-width: 352px) {
+    .anuncian-card {
+        width: 10rem;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .anuncian-card {
+        width: 9rem;
+    }
+}
+@media only screen and (max-width: 288px) {
+    .anuncian-card {
+        width: 8rem;
+    }
+}
+@media only screen and (max-width: 256px) {
+    .anuncian-card {
+        width: 15rem;
+    }
+}

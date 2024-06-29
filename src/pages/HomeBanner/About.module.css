@@ -1,0 +1,156 @@
+.btn {
+  padding: 16px 32px; /* Aumenta el tamaño de los botones */
+  border: none;
+  border-radius: 8px; /* Ajusta el borde redondeado */
+  cursor: pointer;
+  font-size: 18px; /* Aumenta el tamaño de la fuente en los botones */
+  transition: background-color 0.3s ease; /* Añade una transición suave */
+}
+
+.btn.primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn.primary:hover {
+  background-color: #0056b3; /* Color de fondo al pasar el ratón */
+}
+
+.btn.secondary {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+.btn.secondary:hover {
+  background-color: #003f7f; /* Color de fondo al pasar el ratón */
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1200px) {
+  .btn {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
+
+
+.about-480 {
+    padding: 20px; 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .textDiv {
+    margin-bottom: 20px;
+    width: calc(50% - 10px);
+    
+  }
+
+  ._p1{
+
+    font-family: 'Inter', sans-serif;
+    color: #232428;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    
+
+}
+  
+
+.h1{
+  font-family: "Nunito Sans", sans-serif;
+  letter-spacing: 0.00938em;
+  font-size: 64px;
+  text-align: center;
+}
+
+  .btn {
+    padding: 0px 35px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    display: block;
+    width: 105%;
+    box-sizing: border-box;
+    height: 60px;
+  }
+  
+  .btn.primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn.primary:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el ratón */
+  }
+  
+  .btn.secondary {
+    background-color: #0056b3;
+    color: #fff;
+  }
+  
+  .btn.secondary:hover {
+    background-color: #003f7f; /* Color de fondo al pasar el ratón */
+  }
+  
+  /* Media Queries for responsiveness */
+  @media (max-width: 768px) {
+    .textDiv {
+      width: 100%;
+
+      .p1{
+
+        font-family: 'Inter', sans-serif;
+        color: #232428;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+    
+    }
+
+      .btn {
+        padding: 16px 32px; /* Aumenta el tamaño de los botones */
+        border: none;
+        border-radius: 8px; /* Ajusta el borde redondeado */
+        cursor: pointer;
+        font-size: 18px; /* Aumenta el tamaño de la fuente en los botones */
+        transition: background-color 0.3s ease; /* Añade una transición suave */
+      }
+      
+      .btn.primary {
+        background-color: #007bff;
+        color: #fff;
+      }
+      
+      .btn.primary:hover {
+        background-color: #0056b3; /* Color de fondo al pasar el ratón */
+      }
+      
+      .btn.secondary {
+        background-color: #0056b3;
+        color: #fff;
+      }
+      
+    }
+  }
+  
