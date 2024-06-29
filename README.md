@@ -1,4 +1,4 @@
-﻿# Locallity-Frontend
+﻿# Ejemplo de Frontend
 ![image](https://github.com/Global-Manu-Man/creze-amplify/assets/84020431/5df3d15d-fdcd-41bc-9adb-9cc2d331dd08)
 
 
