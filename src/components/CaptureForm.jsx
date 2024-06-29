@@ -61,7 +61,7 @@ const CaptureForm = () => {
   return (
   <div>
     <Navigation/>
-    <div className="capture-form-container">
+    <div id="capture-form" className="capture-form-container">
       <div className="capture-form card">
         <h2>Formulario de Captura</h2>
         <form>

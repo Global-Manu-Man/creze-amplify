@@ -21,7 +21,7 @@ const HomeSlider = () => {
       setData(response.data.data);
       setLoading(false);
     } catch (error) {
-      console.error('Error fetching data:', error);
+      //console.error('Error fetching data:', error);
       setLoading(false);
     }
   };

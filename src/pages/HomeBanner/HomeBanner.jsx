@@ -1,7 +1,7 @@
 import React, { Fragment, useState, useEffect } from "react";
 import "./HomeBanner.css";
 import Navigation from "./Navigation";
-import HomeSlider from "./HomeSlider";
+//import HomeSlider from "./HomeSlider";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import LandingPage from "./LandingPage";
 import GoogleMaps from "./GoogleMaps";
@@ -33,7 +33,6 @@ const HomeBanner = () => {
       <LandingPage />
       <Requisitos />
       <Carousel />
-      <HomeSlider />
       <Testimonials />
       <Banner />
       <Footer />

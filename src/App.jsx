@@ -45,6 +45,7 @@ function App() {
         <Route path={pathname.phoneSignup} element={<PhoneSignUp />} />
         <Route path={pathname.profile} element={<ProtectedRoute><Profile /></ProtectedRoute>} />
         <Route path={pathname.notFound} element={<NotFound />} />
+        <Route path="/capture-form" element={<ProtectedRoute><CaptureForm /></ProtectedRoute>} />
       </Routes>
       <ToastContainer
         position="top-right"  

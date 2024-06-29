@@ -1,8 +1,14 @@
 import React from 'react';
 import styles from './LandingPage.module.css';
-
+import { useNavigate } from 'react-router-dom';
 
 const LandingPage = () => {
+  const navigate = useNavigate();
+
+  const handleButtonClick = () => {
+    navigate('/capture-form');
+  };
+
   return (
     <div id="landing-page" className={styles.landingPage}>
       <div className={styles.imageContainer}>
@@ -14,7 +20,9 @@ const LandingPage = () => {
           Obtén hasta 20 millones con garantía y 3 millones sin garantía en <strong>72 horas</strong>
         </p>
         <div className={styles.buttons}>
-          <button className={`${styles.btn} ${styles.primary}`}>¡Aplica ahora!</button>
+          <button className={`${styles.btn} ${styles.primary}`} onClick={handleButtonClick}>
+            ¡Aplica ahora!
+          </button>
           <button className={`${styles.btn} ${styles.secondary}`}>¡Simula tu crédito!</button>
         </div>
       </div>
