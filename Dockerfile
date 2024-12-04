@@ -21,6 +21,9 @@ COPY . .
 # Compila el proyecto NestJS
 RUN npm run build
 
+# Verifica que el archivo main.js se haya generado en el directorio dist
+RUN ls -la dist
+
 # Expone el puerto que usa la aplicación
 EXPOSE 3000
 
