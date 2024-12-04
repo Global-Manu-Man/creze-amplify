@@ -7,6 +7,11 @@ WORKDIR /app
 # Copia el package.json y el package-lock.json para instalar dependencias
 COPY package*.json ./
 
+# Configura el tiempo de espera de npm y actualiza npm
+RUN npm config set fetch-retry-mintimeout 20000 \
+    && npm config set fetch-retry-maxtimeout 120000 \
+    && npm install -g npm@latest
+
 # Instala las dependencias
 RUN npm install
 
