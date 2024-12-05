@@ -18,7 +18,7 @@ RUN npm install
 # Copia el resto del código de la aplicación al contenedor
 COPY . .
 
-# Compila el proyecto NestJS
+# Compila el proyecto React
 RUN npm run build
 
 # Verifica que el archivo main.js se haya generado en el directorio dist
